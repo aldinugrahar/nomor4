@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>OctaGram - Advance Trading Platform</title>
+        <link rel="icon" type="image/x-icon" href="g-favicon.ico/favicon.ico" />
+        <link rel="apple-touch-icon" sizes="57x57" href="g-favicon.ico/apple-icon-57x57.png">
+        <link rel="apple-touch-icon" sizes="60x60" href="g-favicon.ico/apple-icon-60x60.png">
+        <link rel="apple-touch-icon" sizes="72x72" href="g-favicon.ico/apple-icon-72x72.png">
+        <link rel="apple-touch-icon" sizes="76x76" href="g-favicon.ico/apple-icon-76x76.png">
+        <link rel="apple-touch-icon" sizes="114x114" href="g-favicon.ico/apple-icon-114x114.png">
+        <link rel="apple-touch-icon" sizes="120x120" href="g-favicon.ico/apple-icon-120x120.png">
+        <link rel="apple-touch-icon" sizes="144x144" href="g-favicon.ico/apple-icon-144x144.png">
+        <link rel="apple-touch-icon" sizes="152x152" href="g-favicon.ico/apple-icon-152x152.png">
+        <link rel="apple-touch-icon" sizes="180x180" href="g-favicon.ico/apple-icon-180x180.png">
+        <link rel="icon" type="image/png" sizes="192x192"  href="g-favicon.ico/android-icon-192x192.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="g-favicon.ico/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="96x96" href="g-favicon.ico/favicon-96x96.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="g-favicon.ico/favicon-16x16.png">
+        <link rel="manifest" href="g-favicon.ico/manifest.json">
+        <meta name="msapplication-TileColor" content="#ffffff">
+        <meta name="msapplication-TileImage" content="g-favicon.ico/ms-icon-144x144.png">
+        <meta name="theme-color" content="#ffffff">
+        
+        <link href='https://fonts.googleapis.com/css?family=KoHo' rel='stylesheet'>
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+        <link href="css/core.css?v=1.2.3" rel="stylesheet" />
+        <link href="css/flipdown.css?v=1" rel="stylesheet" />
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    </head>
+    <body id="page-top" oncontextmenu="return false" onselectstart="return false" ondragstart="return false">
+        <header class="bg-primary text-white">
+            <div id="particles-js" class="particle-class"></div>
+            <div class="container">
+
+                <div class="connect-wallet-container">
+                    <a id="wallet" class="connect-wallet-link">Connect Wallet</a>
+                </div>
+                <div class="logo-container">
+                    <img class="logo" src="assets/logo-1.png" />
+                </div>
+
+                <nav class="style-2">
+                    <a href="https://octagram.xyz" class="btn">Home</a>
+                    <a href="#" class="btn">Airdrop</a>
+                    <a href="farms" class="btn">Farms</a>
+                    <a target="_blank" href="https://bscscan.com/token/" class="btn">BSCSCAN</a>
+                </nav>
+                
+                <div>
+                    <div class="frame-airdrop">
+                        
+                        <ul id="progressbar">
+                            <li class="active">Put Refferal ID</li>
+                            <li>Choose Airdrop or Presale</li>
+                            <li>Enjoy</li>
+                        </ul>
+
+                        <div>
+                            <h1 style="text-align:center;margin-top:30px;color:#080514;">AIRDROP</h1>
+                            <p class="ends-in">Ends in</p>
+                            <div id="flipdown" class="flipdown mx-auto"></div>
+                        </div>
+
+                        <div class="row" style="margin-top: 20px;">
+                            <div class="col-lg-6 mx-auto">
+
+                                <ol class="rectangle-list">
+                                    <li><label>Support Metamask (PC, Smartphone), Trustwallet (Smartphone)</label></li>
+                                    <li><label>INVITE PEOPLE TO GET 30% BNB + 1000% OctaG</label></li>
+                                </ol>
+
+                                <fieldset class="form">
+                                    <label>REFFERED BY</label>
+                                    <input type="text" id="refferal" name="refferal" placeholder="REFFERAL ID"/>
+                                    <a class="generate-link">GENERATE LINK</a>
+                                    <p class="lead no-padding" id="url"></p>
+
+                                    <div class="container-form-btn-1" style="margin-top:30px;">
+                                        <div class="wrap-form-btn-1">
+                                            <div class="form-bgbtn-1"></div>
+                                                <button id="claimAirdrop" class="bg-transparent form-btn-1">
+                                                <span>Claim Airdrop</span>
+                                                </button>
+                                        </div>
+                                    </div>
+
+                                    <p style="font-size:1em;margin-top:5px;">Get it now while it's cheap (MAX 10 BNB)</p>
+			            <p style="font-size:1em;margin-top:5px;">0.01 = 1.000.000.000 OctaG</p>
+                                    <p style="font-size:1em;margin-top:5px;">1 BNB = 100.000.000.000 OctaG</p>
+                                    <p style="font-size:1em;margin-top:5px;">10 BNB = 1.000.000.000.000 OctaG</p>
+                                    <input type="text" id="token" name="token" value="0.01" placeholder="Enter your amount">
+
+                                    <div class="container-form-btn-1">
+                                        <div class="wrap-form-btn-1">
+                                            <div class="form-bgbtn-1"></div>
+                                                <button id="buyToken" class="bg-transparent form-btn-1">
+                                                <span>Buy Token</span>
+                                                </button>
+                                        </div>
+                                    </div>
+                                </fieldset>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+            <div id="scroll-down" class="scroll">
+                <a class="scroll-btn" href="#contact"><span></span>Scroll down to see more</a>
+            </div>
+        </header>
+        <section id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 mx-auto">
+                        <h2>Contact us</h2>
+                        <div class="socials">
+                            <a target="_blank" href="https://t.me/">Telegram Announcement</a>
+                            <a target="_blank" href="https://twitter.com/">Twitter</a>
+                            <a target="_blank" href="https://bscscan.com/token/">BscScan</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Footer-->
+        <footer class="footer">
+            <div class="container"><p class="m-0 text-center">Copyright &copy; OctaGram 2021</p></div>
+        </footer>
+        <!-- Bootstrap core JS-->
+        <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Third party plugin JS-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/datejs/1.0/date.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+        <script src="js/core.min.js"></script>
+        <script src="js/flipdown.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/web3@1.3.6/dist/web3.min.js"></script>
+        <script src="js/crypto.min.js?v=1.2.4"></script>
+        <script>
+
+            setInputFilter(document.getElementById("token"), function(value) {
+                return /^-?\d*[.,]?\d*$/.test(value); });
+
+            var refferal = onload().then(function() {
+                var ref = querySt("reff");
+                return ref;
+            });
+
+            var unixtime = Date.parse("25 October 2021 18:00:00").getTime()/1000
+            new FlipDown(unixtime, {
+                theme: "dark",
+            }).start();
+
+            accChanged();
+            ethEnabled().then(function(value) {
+                if (value != "" && value != undefined && value != null) {
+                    $( "#wallet" ).text(value.replace(value.substring(6,40), "*****"));
+                    refferal.then(function (ref) {
+                        if (ref) {
+                            $( "#refferal" ).val(ref);
+                        } else {
+                            $( "#refferal" ).val(value);
+                        }
+                    });
+                } else {
+                    $( "#wallet" ).text("Connect Wallet");
+                    $( "#wallet" ).click(function() {
+                        ethEnabled();
+                    });
+                }
+            });
+
+            $( '.generate-link' ).click(function() {
+                getreflink();
+                copyToClipboard('url');
+                alert("Link copied successfully")
+                return false; 
+            });
+
+            $( "#claimAirdrop" ).click(function() {
+                if($( "#refferal" ).val().trim() == ''){
+                    alert("Refferal is Required!!")
+                } else {
+                    getAirdrop();
+                }
+            });
+
+            $( "#buyToken" ).click(function() {
+                if($( "#refferal" ).val().trim() == ''){
+                    alert("Refferal is Required!!")
+                } else {
+                    buystt();
+                }
+            });
+
+        </script>
+    </body>
+</html>
